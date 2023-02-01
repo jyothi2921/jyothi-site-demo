@@ -14,6 +14,7 @@
     <hr>
 
 
+
     <h2>@container</h2>
     <h2>fluid container</h2>
     <div class="container-fluid"> this is fluid container and it will go till end of the page</div>
@@ -22,7 +23,10 @@
 
 <h2>@container</h2> 
 <div class="container"> this is fluid container and it will go till end of the page</div>
+
+
 <h2>@links</h2>
+
 <a class="link link-primary"
 href="/">primary link</a>
 
@@ -33,40 +37,40 @@ href="/">secondary link</a>
 
 <h3>unorder list</h3>
 
-<ul>
+<ul class="non-bullet">
     <li>one</li>
     <li>two</li>
     <li>three</li>
 </ul>
 
-<h3>order list</h3>
-<ol>
-    <li>one</li>
-    <li>two</li>
-    <li>three</li>
+<h3>unorder inline list</h3>
+<ul>
+    <li class="list-inline">inline one</li>
+    <li class="list-inline">inline two</li>
+    <li class="list-inline">inline three</li>
 </ol>
 
-<h3>reverse order</h3>
-
-<h3>order list</h3>
-<ol>
-    <li>one</li>
-    <li>two</li>
-    <li>three</li>
+<h3>reverse order of order list</h3>
+<ol reversed>
+    <li>milk</li>
+    <li>eggs</li>
+    <li>break</li>
 </ol>
+<hr>
+
 
 <h3>nav</h3>
-<nav >
-    <div>i am brand</div>
-    <ul>
-        <li>
-            <a href="/">home</a>   
+<nav class="navigation" >
+    <div class="nav-brand">i am brand</div>
+    <ul class="non-bullet nav-pills">
+        <li class="list-inline">
+            <a class="link link-active" href="/">home</a>   
         </li>
         <li>
-            <a href="/">project</a>
+            <a class="link" href="/">project</a>
         </li>
         <li>
-            <a href="/">about</a>
+            <a class="link" href="/">about</a>
         </li>
     </ul>
 </nav>
