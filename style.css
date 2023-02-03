@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 :root {
     --primary-color:#ba3aed;
+    --dark-gray:#6B7280;
 }
 
 
@@ -70,4 +71,17 @@ padding-right: 1rem;
     }
 .navigation .link-active{
     font-weight: bold;
+}
+/** header **/
+.hero{
+    padding:2rem;
+}
+.hero .hero-img
+{
+    max-width: 350px;
+    display:black;
+    margin:auto;
+}
+.hero .hero-heading{
+    color:var(--dark-gray);
 }
