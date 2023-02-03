@@ -79,8 +79,8 @@ padding-right: 1rem;
 .hero .hero-img
 {
     max-width: 350px;
-    display:black;
-    margin:auto;
+    display:block;
+    margin: 500px;
 }
 .hero .hero-heading{
     color:var(--dark-gray);
