@@ -96,3 +96,15 @@ padding-right: 1rem;
 .off-white{
     background-color:var(--off-white);
 }
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #F3F4F6;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: #F3F4F6;
+}
