@@ -85,3 +85,6 @@ padding-right: 1rem;
 .hero .hero-heading{
     color:var(--dark-gray);
 }
+.hero .hero-heading .heading{
+    color:var(--primary-color);
+}
